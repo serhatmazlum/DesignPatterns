@@ -2,8 +2,7 @@ package util;
 
 import java.util.List;
 
-public final class Lists {
-    private Lists(){};
+public final class ListUtil {
 
     /**
      * Returns the first item in the given list or null if not found.
@@ -27,8 +26,7 @@ public final class Lists {
     /**
      * Returns the first item in the given list or null if not found.
      * @param list The list that may have removable first item.
-     * @return null if the list ist null or there is no first item or
-     * removed item
+     * @return null if the list ist null or there is no first item.
      * @param <T> The generic list type
      */
     public static <T> T removeFirst(final List<T> list){
